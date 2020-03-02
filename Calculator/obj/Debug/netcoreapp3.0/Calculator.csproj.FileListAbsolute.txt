@@ -1,0 +1,10 @@
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\bin\Debug\netcoreapp3.0\Calculator.exe
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\bin\Debug\netcoreapp3.0\Calculator.deps.json
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\bin\Debug\netcoreapp3.0\Calculator.runtimeconfig.json
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\bin\Debug\netcoreapp3.0\Calculator.runtimeconfig.dev.json
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\bin\Debug\netcoreapp3.0\Calculator.dll
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\bin\Debug\netcoreapp3.0\Calculator.pdb
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\obj\Debug\netcoreapp3.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\obj\Debug\netcoreapp3.0\Calculator.AssemblyInfo.cs
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\obj\Debug\netcoreapp3.0\Calculator.dll
+C:\Users\haris\Desktop\Тестовое 1\Контур\Каль\Calculator\Calculator\obj\Debug\netcoreapp3.0\Calculator.pdb
