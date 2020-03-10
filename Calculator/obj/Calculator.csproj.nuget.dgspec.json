@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haris\\Desktop\\Тестовое 1\\Контур\\Каль\\Calculator\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\haris\\Desktop\\Тестовое 1\\C-master\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haris\\Desktop\\Тестовое 1\\Контур\\Каль\\Calculator\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\haris\\Desktop\\Тестовое 1\\C-master\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haris\\Desktop\\Тестовое 1\\Контур\\Каль\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Desktop\\Тестовое 1\\C-master\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\haris\\Desktop\\Тестовое 1\\Контур\\Каль\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\haris\\Desktop\\Тестовое 1\\C-master\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haris\\Desktop\\Тестовое 1\\Контур\\Каль\\Calculator\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\haris\\Desktop\\Тестовое 1\\C-master\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

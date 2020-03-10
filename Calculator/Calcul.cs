@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CCalculator
 {
-    public class Calculator
+    public class Calcul
     {
         public double Addition(double a, double b)
         {
@@ -23,8 +23,6 @@ namespace CCalculator
 
         public double Division(double a, double b)
         {
-            if(b == 0.0d)
-                throw new DivideByZeroException("Деление на ноль запрещено");
             return a / b;
         }
     }

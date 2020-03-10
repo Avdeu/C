@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculator;
+using System;
 
 namespace CCalculator
 {
@@ -8,31 +9,32 @@ namespace CCalculator
         {
             while (true)
             {
-                double a, b;
-                char z;
-                Calculator cc = new Calculator();
-                Console.Write("Введите a: ");
-                a = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Введите действие (+, -, *, /): ");
-                z = Convert.ToChar(Console.ReadLine());
-                if (z != '+' && z != '-' && z != '/' && z != '*')
-                    Console.WriteLine("Введен некорректный символ");
-                else
-                {
-                    Console.Write("Введите b: ");
-                    b = Convert.ToDouble(Console.ReadLine());
 
-                    if (z == '+')
-                        Conclusion(cc.Addition(a, b));
-                    else if (z == '-')
-                        Conclusion(cc.Subtraction(a, b));
-                    else if (z == '*')
-                        Conclusion(cc.Multiplication(a, b));
-                    else if (z == '/')
-                        Conclusion(cc.Division(a, b));
-                }
+                double a, b;
+                string c;
+                Calcul k = new Calcul();
+                InputHandler n = new InputHandler();
+
+                Console.Write("Введите a: ");
+                a = n.ProcessingValueA(Console.ReadLine());
+
+                Console.Write("Введите действие (+, -, *, /): ");
+                c = n.ProcessingValueZ(Console.ReadLine());
+                
+                Console.Write("Введите b: ");
+                b = n.ProcessingValueB(Console.ReadLine(), c);
+
+                if (c == "+")
+                    Conclusion(k.Addition(a, b));
+                else if (c == "-")
+                    Conclusion(k.Subtraction(a, b));
+                else if (c == "*")
+                    Conclusion(k.Multiplication(a, b));
+                else if (c == "/")
+                    Conclusion(k.Division(a, b));
             }
         }
+
         static void Conclusion(double a)
         {
             Console.WriteLine("Ответ:" + a);
